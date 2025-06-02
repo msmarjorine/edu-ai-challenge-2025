@@ -1,0 +1,8 @@
+I want you to help me resolve the problem, and you should explain your thinking while searching for the best solution. Explain me step-by-step how you will reach the conclusion.
+I need to select the most suitable type of database for the new application. We have the following requirements for the app:
++ Social platform with millions of users
++ Need to store profiles, posts, and connections between users
++ High data read speed required
++ Expected 80% read operations, 20% write operations
++ Scalability is important as the user base grows
+
