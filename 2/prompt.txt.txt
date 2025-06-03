@@ -1,0 +1,13 @@
+I have a brief note about a software bug I found. Please help me create a complete bug report by expanding this note into a structured format with markdown.
+I need the result in a file with .md extension  
+
+The required fields of bug report:
+- Title
+- Description
+- Steps to Reproduce
+- Expected vs Actual Behavior
+- Environment (if known)
+- Severity or Impact
+
+Here's my note about a bug:
+Logout button doesn’t work on Safari. It just doesn’t respond.
