@@ -1,0 +1,17 @@
+Here's the task for you.
+I will provide you a short text, you need to analyze it and perform several actions.
+1. Generate a concise summary of the input text using abstractive summarization.
+2. Analyze the sentiment and classify it as positive, neutral, or negative.
+3. Provide a sentiment score, which should be a floating-point number with 2 decimals from -1 to +1 (where -1 is very negative, 0 is neutral, +1 is very positive).
+4. Return the results in a structured JSON format with the following properties and corresponding values: 
+AI assistant name,
+summary title,
+summary,
+sentiment (positive / neutral / negative),
+sentiment score (from -1 to +1),
+
+Here's the input text
+
+Remote work, also known as telecommuting, has become increasingly popular in recent years, particularly after the global pandemic forced many companies to adapt to flexible working arrangements. The advantages of remote work are numerous. Employees often report higher job satisfaction due to the elimination of long commutes, increased flexibility in managing work-life balance, and the ability to work from the comfort of their homes. For companies, remote work can lead to lower operational costs, since there is less need for office space and associated expenses.
+However, remote work is not without its challenges. Many employees struggle with feelings of isolation and a lack of connection to their colleagues, which can negatively impact collaboration and team dynamics. Moreover, some workers find it difficult to maintain productivity due to distractions at home or the blurred boundaries between personal and professional life. Employers, on the other hand, may face difficulties in monitoring employee performance and ensuring consistent communication across teams.
+Despite these challenges, remote work is likely here to stay. Companies are exploring hybrid models that combine the benefits of in-office collaboration with the flexibility of remote work. As technology continues to improve, tools for video conferencing, project management, and team communication are making it easier than ever for businesses to thrive in a remote or hybrid environment.
