@@ -1,0 +1,28 @@
+I will provide a piece of code I've written. You should do the following:
+1. Adopt the persona of an experienced developer. Analyze the code from the perspective of the experienced developer.
+2. Adopt the persona of a security engineer. Analyze the code from the perspective of the security engineer.
+3. Adopt the persona of a performance specialist. Analyze the code from the perspective of the performance specialist.
+4. Create a well-formatted file in .md format, where you provide specific, actionable recommendations and observations to improve the code from each of three perspectives.
+
+Here's my code for review:
+function processUserData(data: any) {
+  var users = [];
+
+  for (var i = 0; i < data.length; i++) {
+    var user = {
+      id: data[i].id,
+      name: data[i].name,
+      email: data[i].email,
+      active: data[i].status === 'active' ? true : false
+    };
+    users.push(user);
+  }
+  console.log("Processed " + users.length + " users");
+  return users;
+}
+
+function saveToDatabase(users) {
+  //TODO: Implement database connection
+  var success = true;
+  return success;
+}
