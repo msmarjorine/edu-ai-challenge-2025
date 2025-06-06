@@ -1,0 +1,37 @@
+[
+  {
+    "sentiment": "Negative",
+    "isRelevant": true,
+    "mainSubject": "Sensor and dongle reliability",
+    "positives": [],
+    "painPoints": [
+      "Sensor stops tracking intermittently even at 8000hz",
+      "Dongle did not work on first unit",
+      "Had to return first unit"
+    ],
+    "improvementSuggestions": [
+      "Improve sensor tracking stability",
+      "Ensure dongle functionality and reliability"
+    ],
+    "featuresMentioned": ["Sensor", "Dongle", "Polling rate (8000hz)"],
+    "userExpertise": "Experienced"
+  },
+  {
+    "sentiment": "Mixed",
+    "isRelevant": true,
+    "mainSubject": "Value for price",
+    "positives": [
+      "Product with no flaws",
+      "Good performance"
+    ],
+    "painPoints": [
+      "Not worth the high price",
+      "Cheaper products offer similar performance with lower specs"
+    ],
+    "improvementSuggestions": [
+      "Reduce price to better match value offered"
+    ],
+    "featuresMentioned": ["Performance", "Price", "Specs"],
+    "userExpertise": "Unknown"
+  }
+]
