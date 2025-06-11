@@ -1,4 +1,4 @@
-# 🚢 Sea Battle (Battleship) Game
+# 🚢 Sea Battle (Battleship) Game Readme
 
 A modernized command-line implementation of the classic Sea Battle (Battleship) game built with ES6+ JavaScript. Battle against an intelligent CPU opponent with strategic hunt-and-target AI!
 
