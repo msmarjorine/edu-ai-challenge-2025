@@ -1,0 +1,48 @@
+{
+  "name": "data-validation-library",
+  "version": "1.0.0",
+  "description": "A comprehensive, type-safe validation library for JavaScript supporting primitive types, complex objects, arrays, and custom validation rules",
+  "main": "schema.js",
+  "scripts": {
+    "test": "node test.js",
+    "test:comprehensive": "node comprehensive-test.js",
+    "test:coverage": "nyc node comprehensive-test.js && nyc report --reporter=text-summary --reporter=html",
+    "demo": "node schema.js"
+  },
+  "keywords": [
+    "validation",
+    "schema",
+    "data-validation",
+    "type-checking",
+    "javascript",
+    "form-validation"
+  ],
+  "author": "AI Assistant",
+  "license": "MIT",
+  "devDependencies": {
+    "nyc": "^15.1.0"
+  },
+  "nyc": {
+    "include": [
+      "schema.js"
+    ],
+    "exclude": [
+      "test.js",
+      "comprehensive-test.js",
+      "node_modules/**"
+    ],
+    "reporter": [
+      "text",
+      "text-summary",
+      "html"
+    ],
+    "check-coverage": true,
+    "lines": 60,
+    "functions": 60,
+    "branches": 60,
+    "statements": 60
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  }
+} 
